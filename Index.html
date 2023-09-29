@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="web design, affordable web design, professional web design, little web designer, 
+  programmer, web page,">
+  <meta name="author" content="web designer">
+  <link rel="stylesheet" href="style.css">
+  <title>web page design</title>
+</head>
+
+<body>
+  <header>
+    <h2 class="logo"> Login Page </h2>
+    <nav class="navigation">
+      <a href="Home.html"><b>Home</b></a>
+      <a href="about.html"><b>About</b></a>
+      <a href="service.html"><b>Service</b></a>
+      <a href="contact.html"><b>Contact</b></a>
+       <button class="btnlogin-popup"><b> Login</b></button>
+    </nav>
+  </header>
+  
+  <div class="wrapper">
+    <span class="icon-close"><ion-icon name="close"></ion-icon>
+    </span>
+    
+    <div class="from-box login">
+      <h2>Login</h2>
+      <from action="#">
+       
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type=" email" required>
+          <label>Email</label>
+        </div>
+        
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        
+        <div class="remember-forget">
+          <label><input type="checkbox"> Remember me...</label>
+          <a href="https://accounts.google.com/signin/v2/challenge/pk/presend?TL=AJeL0C4IjCLZC6-cEijGjf5A7m8fDRj9VWLYADOF6mobZaEc3ir6ZO3zT4Y2ESRr&cid=2&continue=https%3A%2F%2Fmyaccount.google.com%2Fsigninoptions%2Fpassword&flowName=GlifWebSignIn&hl=en-GB&ifkv=AYZoVhfSH9y4dmQkbGRZWXQ5E3Hy9q2SsqCQ2tDZBgiyIP7pBz8Z901yIPmmmTUyu5yKvB2kIBdG&kdi=CAM&rart=ANgoxccuTxMTA1K3a-2EyqH_KW3s0gAUQlNnaRp6mwurVUoLbm7sdj71N_kf0YElsA8OloFtdTftb38dYAz2jarb8x-EtaKflA&rpbg=1&sarp=1&scc=1&service=accountsettings&theme=glif&flowEntry=ServiceLogin"> Forget password?</a>
+        </div>
+        
+        <button type="submit" class="btn"> Login </button>
+        
+        <div class="login-register">
+          <p><a href="#" class="register-lin"> Don't have an account </a> <a href="#" class="register-link"> register </a></p>
+        </div>
+      </from>
+    </div>
+    
+    <div class="from-box register">
+      <h2>Registration</h2>
+      <from action="#">
+        
+        <div class="input-box">
+          <span class="icon"><ion-icon name="person"></ion-icon></span>
+          <input type="text" required>
+          <label>username</label>
+        </div>
+        
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type=" email" required>
+          <label>Email</label>
+        </div>
+        
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        
+        <div class="remember-forget">
+          <label><input type="checkbox">I agree to the terms & conditions</label>
+        </div>
+        
+        <button type="submit" class="btn"> Register </button>
+        <br>
+        <div class="login-register">
+          <p><a href="Home.html" >Already have an account?</a> <a href="#" class="login-link">Login</a></p>
+        </div>
+      </from>
+    </div>
+  </div>
+  <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+  </html>
